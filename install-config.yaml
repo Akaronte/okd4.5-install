@@ -27,4 +27,4 @@ platform:
 fips: false
 
 pullSecret: 'insert_pull_secret'
-sshKey: 'insert_ssh_private_key'
+sshKey: 'insert_ssh_public_key'
