@@ -14,13 +14,14 @@ $TTL    604800
 okd4-services.okd.local.          IN      A       192.168.100.2
 
 ; OpenShift Container Platform Cluster - A records
-okd4-bootstrap.lab.okd.local.        IN      A      192.168.100.3
-okd4-control-plane-1.lab.okd.local.  IN      A      192.168.100.4
-okd4-control-plane-2.lab.okd.local.  IN      A      192.168.100.5
-okd4-control-plane-3.lab.okd.local.  IN      A      192.168.100.6
-okd4-compute-1.lab.okd.local.        IN      A      192.168.100.7
-okd4-compute-2.lab.okd.local.        IN      A      192.168.100.8
-okd4-compute-3.lab.okd.local.        IN      A      192.168.100.9
+bootstrap.lab.okd.local.        IN      A      192.168.100.3
+master1.lab.okd.local.  IN      A      192.168.100.4
+master2.lab.okd.local.  IN      A      192.168.100.5
+master3.lab.okd.local.  IN      A      192.168.100.6
+worker1.lab.okd.local.        IN      A      192.168.100.7
+worker2.lab.okd.local.        IN      A      192.168.100.8
+worker3.lab.okd.local.        IN      A      192.168.100.9
+worker4.lab.okd.local.        IN      A      192.168.100.10
 
 ; OpenShift internal cluster IPs - A records
 api.lab.okd.local.        IN    A    192.168.100.2
